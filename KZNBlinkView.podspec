@@ -6,8 +6,8 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
                    A longer description of KZNBlinkView in Markdown format.
 
+                   * KZNBlinkView is UIView to blink.
                    * KZNBlinkView is tested on iOS 5.0+ and requires ARC.
-                   *
                    DESC
   s.homepage     = "http://kenzan8000.org"
   s.license      = { :type => 'MIT' }
