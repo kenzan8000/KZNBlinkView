@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "KZNBlinkView"
-  s.version      = "0.1"
+  s.version      = "0.2"
   s.summary      = "Category of UIView to blink."
   s.description  = <<-DESC
                    A longer description of KZNBlinkView in Markdown format.
@@ -14,7 +14,8 @@ Pod::Spec.new do |s|
   s.author       = { "Kenzan Hase" => "kenzan8000@gmail.com" }
   s.platform     = :ios, '5.0'
   s.source       = { :git => "https://github.com/kenzan8000/KZNBlinkView.git", :tag => "v0.1" }
-  s.source_files  = 'KZNBlinkView/*.{h,m}'
+  s.source_files = 'KZNBlinkView/*.{h,m}'
+  s.requires_arc = true
   # s.exclude_files = 'Classes/Exclude'
   # s.public_header_files = 'Classes/**/*.h'
 end
